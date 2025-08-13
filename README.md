@@ -52,7 +52,6 @@ Ensure that help.txt exists for the help command, or modify the code to handle m
 
 Run the program by executing main.py:
 
-    ```
      python main.py
 
 Once the program is running, you can enter the following commands:
@@ -60,78 +59,67 @@ Once the program is running, you can enter the following commands:
 ## Commands:
 
 - **Add a Task:**
-
-      ```
+  
       add <task_description>
 
 Adds a new task to the list with the given description.
 
 - **Update a Task:**
 
-      ```
       update <task_id> <new_description>
 
   Updates the description of the task with the specified ID.
 
 - **Delete a Task:**
 
-      ```
       delete <task_id>
 
   Deletes the task with the specified ID.
 
 - **Mark Task as "In Progress":**
 
-        ```
       mark in_progress <task_id>
 
   Marks the task as "In Progress".
 
 - **Mark Task as "Done":**
- 
-            ```
+
             mark done <task_id>
 
    Marks the task as "Done".
 
 - **List All Tasks:**
 
-            ```
             list
 
    Lists tasks marked as "Done".
 
 - **List "Todo" Tasks:**
 
-                ```
                list todo
 
    Lists tasks that have not been started yet.
 
 - **Save Tasks to File:**
 
-                ```
                save <file_path>
 
   Saves the current task list to a .json file.
 
 - **Load Tasks from File:**
 
-               ```
                load <file_path>
 
   Loads tasks from a saved .json file.
 
 - **Help:**
 
-                 ```
                  help
 
   Displays the help text explaining how to use the program.
 
 - **Exit:**
 
-                 ```
                  exit
 
   Exits the program.
@@ -142,31 +130,26 @@ Adds a new task to the list with the given description.
 
   - **Add a task:**
  
-                   ```
                    >> add Finish the report
                    Task successfully added
 
   - **List all tasks:**
  
-                   ```
                   All tasks:
                   1. Finish the report | Status: None
 
   - **Mark a task as done:**
- 
-                   ```
+
                    >> mark done 1
                    Task successfully set to be done
 
   - **Save tasks:**
    
-                  ```
                   >> save tasks_list
                   Successfully saved as tasks_list.json
 
   - **Load tasks:**
- 
-                  ```
+
                   >> load tasks_list
                   File successfully loaded
 
@@ -200,7 +183,6 @@ Feel free to fork this repository, submit issues, or create pull requests. Contr
 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-   ```vbnet
                   ### Key Highlights:
                   1. **Bold text** for key sections like "Features", "Commands", "Example", etc.
                   2. **Code blocks** for commands, examples, and file contents.
@@ -209,12 +191,3 @@ This project is licensed under the MIT License – see the LICENSE file for deta
                   
                   This should give your `README.md` a more professional and engaging appearance on GitHub!
   
-
-  
-
-
-
-    
-
-
-    
