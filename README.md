@@ -26,135 +26,114 @@ A simple Python CLI for managing tasks. Add, update, delete, and organize tasks 
    cd <repository-directory>
 Ensure that all dependencies are installed (you might need validator.py for input validation):
 
-bash
-Salin
-Edit
 pip install -r requirements.txt
 Ensure that help.txt exists for the help command, or modify the code to handle missing files.
 
 Usage
 Run the program by executing main.py:
 
-bash
-Salin
-Edit
 python main.py
 Once the program is running, you can enter the following commands:
 
 Commands:
 Add a Task:
 
-add <task_description>
+>> add <task_description>
 
 Adds a new task to the list with the given description.
 
 Update a Task:
 
-update <task_id> <new_description>
+>> update <task_id> <new_description>
 
 Updates the description of the task with the specified ID.
 
 Delete a Task:
 
-delete <task_id>
+>> delete <task_id>
 
 Deletes the task with the specified ID.
 
 Mark Task as "In Progress":
 
-mark in_progress <task_id>
+>> mark in_progress <task_id>
 
 Marks the task as "In Progress".
 
 Mark Task as "Done":
 
-mark done <task_id>
+>> mark done <task_id>
 
 Marks the task as "Done".
 
 List All Tasks:
 
-list
+>> list
 
 Lists all tasks with their current status.
 
 List "Done" Tasks:
 
-list done
+>> list done
 
 Lists tasks that are marked as "Done".
 
 List "In Progress" Tasks:
 
-list in_progress
+>> list in_progress
 
 Lists tasks that are marked as "In Progress".
 
 List "Todo" Tasks:
 
-list todo
+>> list todo
 
 Lists tasks that have not been started yet.
 
 Save Tasks to File:
 
-save <file_path>
+>> save <file_path>
 
 Saves the current task list to a .json file.
 
 Load Tasks from File:
 
-load <file_path>
+>> load <file_path>
 
 Loads tasks from a saved .json file.
 
 Help:
 
-help
+>> help
 
 Displays the help text explaining how to use the program.
 
 Exit:
 
-exit
+>> exit
 
 Exits the program.
 
 Example
 Add a task:
 
-bash
-Salin
-Edit
 >> add Finish the report
 Task successfully added
 List all tasks:
 
-bash
-Salin
-Edit
 >> list
 All tasks:
 1. Finish the report | Status: None
 Mark a task as done:
 
-bash
-Salin
-Edit
 >> mark done 1
 Task successfully set to be done
 Save tasks:
 
-bash
-Salin
-Edit
 >> save tasks_list
 Successfully saved as tasks_list.json
 Load tasks:
 
-bash
-Salin
-Edit
 >> load tasks_list
 File successfully loaded
 How It Works
@@ -186,8 +165,5 @@ Feel free to fork this repository, submit issues, or create pull requests. Contr
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-pgsql
-Salin
-Edit
 
 This `README.md` will guide users in setting up and using your task management system. It covers installat
