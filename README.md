@@ -61,10 +61,10 @@ Once the program is running, you can enter the following commands:
 
 - **Add a Task:**
 
-      ```bash
+  ```bash
       add <task_description>
 
-  Adds a new task to the list with the given description.
+Adds a new task to the list with the given description.
 
 - **Update a Task:**
 
