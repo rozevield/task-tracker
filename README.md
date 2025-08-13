@@ -52,8 +52,8 @@ Ensure that help.txt exists for the help command, or modify the code to handle m
 
 Run the program by executing main.py:
 
-      ```bash
-      python main.py
+    ```
+     python main.py
 
 Once the program is running, you can enter the following commands:
 
@@ -61,77 +61,77 @@ Once the program is running, you can enter the following commands:
 
 - **Add a Task:**
 
-  ```bash
+      ```
       add <task_description>
 
 Adds a new task to the list with the given description.
 
 - **Update a Task:**
 
-      ```bash
+      ```
       update <task_id> <new_description>
 
   Updates the description of the task with the specified ID.
 
 - **Delete a Task:**
 
-      ```bash
+      ```
       delete <task_id>
 
   Deletes the task with the specified ID.
 
 - **Mark Task as "In Progress":**
 
-        ```bash
+        ```
       mark in_progress <task_id>
 
   Marks the task as "In Progress".
 
 - **Mark Task as "Done":**
  
-            ```bash
+            ```
             mark done <task_id>
 
    Marks the task as "Done".
 
 - **List All Tasks:**
 
-              ```bash
+            ```
             list
 
    Lists tasks marked as "Done".
 
 - **List "Todo" Tasks:**
 
-                ```bash
+                ```
                list todo
 
    Lists tasks that have not been started yet.
 
 - **Save Tasks to File:**
 
-                ```bash
+                ```
                save <file_path>
 
   Saves the current task list to a .json file.
 
 - **Load Tasks from File:**
 
-               ```bash
+               ```
                load <file_path>
 
   Loads tasks from a saved .json file.
 
 - **Help:**
 
-                 ```bash
+                 ```
                  help
 
   Displays the help text explaining how to use the program.
 
 - **Exit:**
 
-                 ```bash
+                 ```
                  exit
 
   Exits the program.
@@ -142,31 +142,31 @@ Adds a new task to the list with the given description.
 
   - **Add a task:**
  
-                   ```bash
+                   ```
                    >> add Finish the report
                    Task successfully added
 
   - **List all tasks:**
  
-                   ```bash
+                   ```
                   All tasks:
                   1. Finish the report | Status: None
 
   - **Mark a task as done:**
  
-                   ```bash
+                   ```
                    >> mark done 1
                    Task successfully set to be done
 
   - **Save tasks:**
    
-                  ```bash
+                  ```
                   >> save tasks_list
                   Successfully saved as tasks_list.json
 
   - **Load tasks:**
  
-                  ```bash
+                  ```
                   >> load tasks_list
                   File successfully loaded
 
@@ -200,7 +200,7 @@ Feel free to fork this repository, submit issues, or create pull requests. Contr
 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-                  ```vbnet
+   ```vbnet
                   ### Key Highlights:
                   1. **Bold text** for key sections like "Features", "Commands", "Example", etc.
                   2. **Code blocks** for commands, examples, and file contents.
