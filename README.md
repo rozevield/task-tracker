@@ -38,103 +38,104 @@ Once the program is running, you can enter the following commands:
 Commands:
 Add a Task:
 
->> add <task_description>
+``` add <task_description> ```
 
 Adds a new task to the list with the given description.
 
 Update a Task:
 
->> update <task_id> <new_description>
+``` update <task_id> <new_description> ```
 
 Updates the description of the task with the specified ID.
 
 Delete a Task:
 
->> delete <task_id>
+``` delete <task_id> ```
 
 Deletes the task with the specified ID.
 
 Mark Task as "In Progress":
 
->> mark in_progress <task_id>
+``` mark in_progress <task_id> ```
 
 Marks the task as "In Progress".
 
 Mark Task as "Done":
 
->> mark done <task_id>
+``` mark done <task_id> ```
 
 Marks the task as "Done".
 
 List All Tasks:
 
->> list
+``` list ```
 
 Lists all tasks with their current status.
 
 List "Done" Tasks:
 
->> list done
+``` list done ```
 
 Lists tasks that are marked as "Done".
 
 List "In Progress" Tasks:
 
->> list in_progress
+``` list in_progress ```
 
 Lists tasks that are marked as "In Progress".
 
 List "Todo" Tasks:
 
->> list todo
+``` list todo ```
 
 Lists tasks that have not been started yet.
 
 Save Tasks to File:
 
->> save <file_path>
+``` save <file_path> ```
 
 Saves the current task list to a .json file.
 
 Load Tasks from File:
 
->> load <file_path>
+``` load <file_path> ```
 
 Loads tasks from a saved .json file.
 
 Help:
 
->> help
+``` help ```
 
 Displays the help text explaining how to use the program.
 
 Exit:
 
->> exit
+``` exit ```
 
 Exits the program.
 
-Example
+>> Example: 
+
 Add a task:
 
->> add Finish the report
+``` add Finish the report ```
 Task successfully added
 List all tasks:
 
->> list
+``` list ```
 All tasks:
 1. Finish the report | Status: None
 Mark a task as done:
 
->> mark done 1
+``` mark done 1 ```
 Task successfully set to be done
 Save tasks:
 
->> save tasks_list
+``` save tasks_list ```
 Successfully saved as tasks_list.json
 Load tasks:
 
->> load tasks_list
+``` load tasks_list ```
 File successfully loaded
 How It Works
 Task Management:
