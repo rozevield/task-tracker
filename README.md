@@ -39,6 +39,7 @@ A **simple Python CLI** for managing tasks. Add, update, delete, and organize ta
    ```bash
    git clone <repository-url>
    cd <repository-directory>
+   ```
 
 2. Install dependencies:
    
@@ -52,75 +53,99 @@ Ensure that help.txt exists for the help command, or modify the code to handle m
 
 Run the program by executing main.py:
 
-     python main.py
+```
+python main.py
+```
 
 Once the program is running, you can enter the following commands:
 
 ## Commands:
 
 - **Add a Task:**
-  
-      add <task_description>
+
+```
+add <task_description>
+```
 
 Adds a new task to the list with the given description.
 
 - **Update a Task:**
 
-      update <task_id> <new_description>
+```
+update <task_id> <new_description>
+```
 
   Updates the description of the task with the specified ID.
 
 - **Delete a Task:**
 
-      delete <task_id>
+```
+delete <task_id>
+```
 
   Deletes the task with the specified ID.
 
 - **Mark Task as "In Progress":**
 
-      mark in_progress <task_id>
+```
+mark in_progress <task_id>
+```
 
   Marks the task as "In Progress".
 
 - **Mark Task as "Done":**
 
-            mark done <task_id>
+```
+mark done <task_id>
+```
 
    Marks the task as "Done".
 
 - **List All Tasks:**
 
-            list
+```
+list
+```
 
    Lists tasks marked as "Done".
 
 - **List "Todo" Tasks:**
 
-               list todo
+```
+list todo
+```
 
    Lists tasks that have not been started yet.
 
 - **Save Tasks to File:**
 
-               save <file_path>
+```
+save <file_path>
+```
 
   Saves the current task list to a .json file.
 
 - **Load Tasks from File:**
 
-               load <file_path>
+```
+load <file_path>
+```
 
   Loads tasks from a saved .json file.
 
 - **Help:**
 
-                 help
+```
+help
+```
 
   Displays the help text explaining how to use the program.
 
 - **Exit:**
 
-                 exit
+```
+exit
+```
 
   Exits the program.
 
@@ -157,7 +182,7 @@ Adds a new task to the list with the given description.
 
     ## How It Works
 
-    **Task Management:**
+**Task Management:**
 Tasks are stored in a list as dictionaries. Each task has the following attributes:
 
 - **description**: A short text describing the task.
@@ -165,10 +190,10 @@ Tasks are stored in a list as dictionaries. Each task has the following attribut
 - **createdAt**: The timestamp when the task was created.
 - **updatedAt:**: The timestamp when the task was last updated.
 
-  **Input Parsing and Command Handling:**
+## Input Parsing and Command Handling:
 The program continuously asks for user input. Commands are parsed and matched using Python's match statement to execute the corresponding function in utils.py.
 
-  **Validation:**
+## Validation:
 Input is validated (e.g., ensuring the task ID is valid, and the correct number of arguments is provided for each command).
 
   ---
