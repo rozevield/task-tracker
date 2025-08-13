@@ -1,4 +1,5 @@
-# task-tracker
+# Task Management CLI
+
 A **simple Python CLI** for managing tasks. Add, update, delete, and organize tasks with statuses like **"In Progress"** and **"Done"**. Supports saving/loading tasks to/from **JSON** files. This is an easy-to-use tool for managing to-do lists directly from the terminal.
 
 ---
@@ -63,89 +64,68 @@ Once the program is running, you can enter the following commands:
 
 - **Add a Task:**
 
-```
-add <task_description>
-```
+                  add <task_description>
 
 Adds a new task to the list with the given description.
 
 - **Update a Task:**
 
-```
-update <task_id> <new_description>
-```
+                  update <task_id> <new_description>
 
   Updates the description of the task with the specified ID.
 
 - **Delete a Task:**
 
-```
-delete <task_id>
-```
+                  delete <task_id>
 
   Deletes the task with the specified ID.
 
 - **Mark Task as "In Progress":**
 
-```
-mark in_progress <task_id>
-```
+                  mark in_progress <task_id>
 
   Marks the task as "In Progress".
 
 - **Mark Task as "Done":**
 
-```
-mark done <task_id>
-```
+                  mark done <task_id>
 
    Marks the task as "Done".
 
 - **List All Tasks:**
 
-```
-list
-```
+                  list
 
-   Lists tasks marked as "Done".
+Lists tasks marked as "Done".
 
 - **List "Todo" Tasks:**
 
-```
-list todo
-```
+                  list todo
 
    Lists tasks that have not been started yet.
 
 - **Save Tasks to File:**
 
-```
-save <file_path>
-```
+                  save <file_path>
 
   Saves the current task list to a .json file.
 
 - **Load Tasks from File:**
 
-```
-load <file_path>
-```
+                  load <file_path>
 
   Loads tasks from a saved .json file.
 
 - **Help:**
 
-```
-help
-```
+                  help
 
   Displays the help text explaining how to use the program.
 
 - **Exit:**
 
-```
-exit
-```
+                  exit
+
 
   Exits the program.
 
@@ -159,7 +139,7 @@ exit
                    Task successfully added
 
   - **List all tasks:**
- 
+
                   All tasks:
                   1. Finish the report | Status: None
 
@@ -208,11 +188,19 @@ Feel free to fork this repository, submit issues, or create pull requests. Contr
 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-                  ### Key Highlights:
-                  1. **Bold text** for key sections like "Features", "Commands", "Example", etc.
-                  2. **Code blocks** for commands, examples, and file contents.
-                  3. **Headings** for better structure and navigation.
-                  4. Lists are used to make the features and requirements easier to read.
+                - The **"Instructions"** and **"Project URL"** sections should be included towards the beginning of the `README.md` to ensure they’re easy to find.
+                - The **"How to Run the Project"** section will give clear instructions to anyone cloning the repository on how to get the project running on their machine.
                   
-                  This should give your `README.md` a more professional and engaging appearance on GitHub!
-  
+                When you create your GitHub repository, you can upload this `README.md` file into the root of your repository. This way, it will be the first thing users see when they visit your project’s page.
+
+  ----
+
+## Project URL
+
+For more information and additional resources, visit the [Task Tracker Roadmap](https://roadmap.sh/projects/task-tracker)
+
+                ### Key Changes:
+                1. Added your **project URL** under the **"Project URL"** section.
+                2. Filled in **"Contributing"**, **"License"**, and other sections to ensure completeness.
+                
+                This version includes your requested changes and should be ready for upload to your GitHub repository!
