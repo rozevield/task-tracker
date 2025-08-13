@@ -1,0 +1,35 @@
+Simple To-Do List Command Help:
+----------------------------------
+
+   LIST COMMANDS
+  list                  - Show all tasks
+  list done             - Show completed tasks
+  list todo             - Show tasks with no status (to-do)
+  list in_progress      - Show tasks currently in progress
+
+   ADD TASK
+  add <description>     - Add a new task
+    Example: add Learn Python
+
+   UPDATE TASK
+  update <id> <description> - Update a task's description by its ID
+    Example: update 2 Lunch time
+
+   DELETE TASK
+  delete <id>           - Delete a task by its ID
+    Example: delete 3
+
+   MARK TASK
+  mark done <id>        - Mark a task as done
+    Example: mark done 2
+
+   MARK TASK IN PROGRESS
+  mark in_progress <id> - Mark a task as in progress
+    Example: mark in_progress 1
+
+   HELP
+  help                  - Show this help menu
+
+Notes:
+- <id> is the number shown in the task list
+- <description> is the text describing the task
